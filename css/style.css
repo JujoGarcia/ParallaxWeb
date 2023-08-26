@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#monumentalRenovado{
+   
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/LUMPLH4WCBCEFAK25Y5DBVMFMU.jpg");
+    background-size: cover;
+    background-position: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#monumentalGente{
+   
+    background-image: url("https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/10/24194608/recibimiento-river-1920-01.jpg");
+    background-size: cover;
+    background-position: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#riverMadrid{
+   
+    background-image: url("https://el-pais.brightspotcdn.com/uploads/2018/12/13/5c1278530078c.jpeg");
+    background-size: cover;
+    background-position: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    position: absolute;
+    color: #fff;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 8px #000;
+    border: 5px solid #ffffff;
+    padding: 0.5em;
+}
+
+.caja{
+    width: 100%;
+    min-height: 40em;
+    max-height: 40em;
+    background-color: #292727;
+
+  background-attachment: fixed;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+    
+}
+
+.cajaTexto{
+    width: 100%;
+    min-height: 20em;
+    max-height: 20em;
+    background-color: #292727;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 2em;
+    box-sizing: border-box;
+    
+}
+
+.titulo{
+    color: #fff;
+    display: block;
+    margin-bottom: 2em;
+    margin-top: 0.4em;
+    font-size: 2em;
+}
+
+.parrafo{
+    color: #d82929;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
